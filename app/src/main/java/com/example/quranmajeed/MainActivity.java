@@ -54,19 +54,15 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.nav_surah:
-//                        Toast.makeText(getApplicationContext(), "Book is Clicked", Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(MainActivity.this, view1.class);
                         intent.putExtra("type","surah");
                         startActivity(intent);
-                        //drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 
                     case R.id.nav_parah:
-//                        Toast.makeText(getApplicationContext(), "Return is Clicked", Toast.LENGTH_LONG).show();
                         intent = new Intent(MainActivity.this, view1.class);
                         intent.putExtra("type","para");
                         startActivity(intent);
-                        //drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 
                     case R.id.nav_laptop:
