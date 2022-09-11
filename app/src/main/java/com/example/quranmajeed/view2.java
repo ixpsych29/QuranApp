@@ -1,4 +1,4 @@
-package com.example.qurandatabaseapp;
+package com.example.quranmajeed;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +14,7 @@ public class view2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view2);
+        setContentView(R.layout.view2_activity);
 
         Intent intent=getIntent();
         int surahId,paraId;

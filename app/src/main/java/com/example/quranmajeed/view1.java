@@ -23,9 +23,9 @@ public class view1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view1);
+        setContentView(R.layout.view1_activity);
         DBHelper db=new DBHelper(this);
-        Intent intent = new Intent(view1.this, view2.class);
+        Intent intent = new Intent(view1.this, com.example.qurandatabaseapp.view2.class);
 
         if(getIntent().getStringExtra("type").equals("surah"))
         {
